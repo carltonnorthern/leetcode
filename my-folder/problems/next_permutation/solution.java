@@ -11,7 +11,7 @@ class Solution {
                     for(int j=i; j<nums.length; j++) {
                         if(nums[j] > nums[i-1]) {
                             swap(nums, i-1, j);
-                            return;
+                            return; 
                         }
                     }
                 }
